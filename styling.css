@@ -175,6 +175,17 @@ body {
     color: #9F9F9F;
     font-size: 1.15rem;
     margin: 0;
+    cursor: pointer;
+}
+
+.pet-filter button:hover {
+    color: #7d7d7d;
+}
+
+.pet-filter .active,
+.pet-filter .active:hover {
+    color: #475AFF;
+    text-decoration: underline;
 }
 
 .list-of-pets {
